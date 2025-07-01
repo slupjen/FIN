@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: my-telegram-bot
+    name: telegram-bot
     runtime: python
     pythonVersion: "3.10.6"
     buildCommand: pip install -r requirements.txt
